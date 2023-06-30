@@ -1,4 +1,5 @@
 {
+  "homepage":"http://sapinderjit-kaur.github.io/Chat-Bot",
  
   "name": "authen",
   
@@ -48,7 +49,9 @@
   
   "scripts": {
   
-    
+    "predeploy":"npm run build",
+
+    "deploy":"gh-pages -d build",
     
   "start": "react-scripts start",
   
